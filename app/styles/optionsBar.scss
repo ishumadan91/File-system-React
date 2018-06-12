@@ -1,0 +1,10 @@
+.optionsBarList {
+    overflow: hidden;
+    > li {
+        float: left;
+        margin-right: 10px;
+        > a {
+            display: inline-block;
+        }
+    }
+}

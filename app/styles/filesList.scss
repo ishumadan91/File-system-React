@@ -1,0 +1,21 @@
+.filesList {
+   margin-top: 10px;
+}
+.fileItem {
+    background: url('../images/folder_icon.png') no-repeat;
+    padding-left: 20px;
+    background-size: 17px;
+    > a {
+        height: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+        color: #222;
+    }
+}
+.fileItemSelected {
+    background-color: blue;
+    > a {
+        color: #fff;
+    }
+}
